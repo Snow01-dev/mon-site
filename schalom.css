@@ -1,0 +1,27 @@
+.texte-centre {  
+    text-align: center; /* Centre le texte à l'intérieur du conteneur */  
+    margin: 0 auto; /* Centre le conteneur lui-même (utile si sa largeur est définie) */  
+    max-width: 800px; /* Ajustez la largeur maximale selon vos besoins */  
+} 
+.centrer1
+{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+body
+{
+    background: url('fond_jaune.png');
+}
+.texte-image {  
+    display: flex; /* Aligne l'image à gauche et le texte à droite */  
+    align-items: center; /* Aligne verticalement l'image et le texte */  
+    margin-bottom: 20px; /* Espacement entre les blocs */  
+
+}  
+
+.image {  
+    width: 250px; /* Ajustez la largeur de l'image à votre convenance */  
+    height: auto; /* Maintient les proportions de l'image */  
+    margin-right: 20px; /* Espacement entre l'image et le texte */  
+} 
