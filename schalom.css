@@ -1,8 +1,30 @@
-.texte-centre {  
-    text-align: center; /* Centre le texte à l'intérieur du conteneur */  
-    margin: 0 auto; /* Centre le conteneur lui-même (utile si sa largeur est définie) */  
-    max-width: 800px; /* Ajustez la largeur maximale selon vos besoins */  
-} 
+@import url(fontawesome-all.min.css);
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+img
+{
+	width : 300px;
+	height : 200px;
+}
+h2:hover 
+{  
+    transform: scale(1.1); /* Agrandissement au survol */   
+    background-color: #ff4081; /* Changement de couleur de fond au survol */  
+}
+h2
+{
+	display: flex;
+	justify-content: center;
+	align-items: center; /* Centre le texte verticalement */  
+    text-decoration: none;  
+    color: #fff; /* Couleur du texte */  
+    font-size: 20px;  
+    width: 30px; /* Largeur du cercle/rectangle */  
+    height: 50px; /* Hauteur du cercle/rectangle */  
+    border-radius: 20px; /* Pour un cercle, utiliser 0% pour un rectangle */  
+    background-color: #00bcd4; /* Couleur de fond */  
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;; 
+}
+
 .centrer1
 {
     text-align: center;
@@ -13,15 +35,20 @@ body
 {
     background: url('fond_jaune.png');
 }
-.texte-image {  
-    display: flex; /* Aligne l'image à gauche et le texte à droite */  
+.texte-image 
+{  
     align-items: center; /* Aligne verticalement l'image et le texte */  
-    margin-bottom: 20px; /* Espacement entre les blocs */  
+    margin-bottom: 30px; /* Espacement entre les blocs */ 
 
-}  
+}
 
-.image {  
-    width: 250px; /* Ajustez la largeur de l'image à votre convenance */  
-    height: auto; /* Maintient les proportions de l'image */  
-    margin-right: 20px; /* Espacement entre l'image et le texte */  
-} 
+footer, p
+{
+	align-items : center;
+	justify-content: center;
+	text-align : center;
+}
+.alt
+{
+	display: inline-block;
+}
