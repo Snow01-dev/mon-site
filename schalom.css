@@ -41,14 +41,3 @@ body
     margin-bottom: 30px; /* Espacement entre les blocs */ 
 
 }
-
-footer, p
-{
-	align-items : center;
-	justify-content: center;
-	text-align : center;
-}
-.alt
-{
-	display: inline-block;
-}
